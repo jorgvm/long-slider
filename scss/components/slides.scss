@@ -1,0 +1,64 @@
+// Slide
+._ls .slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  text-shadow: 1px 1px rgba(0,0,0,.3);
+
+  div {
+    font-size: 20px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-decoration: underline;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  ._ls .slide {
+    padding: 60px;
+    justify-content: center;
+
+    div {
+      font-size: 40px;
+      line-height: 1.4;
+    }
+
+    &.align-top {
+      justify-content: flex-start;
+    }
+
+    &.align-bottom {
+      justify-content: flex-end;
+    }
+
+    &.align-right {
+      align-items: flex-end;
+    }
+  }
+
+  // Custom slide styling
+
+  ._ls .slide.first {
+    padding-left: 20px;
+  }
+
+  ._ls .extra-left {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    max-width: 400px;
+  }
+
+  ._ls .extra-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50px;
+    max-width: 400px;
+    text-align: right;
+  }
+}

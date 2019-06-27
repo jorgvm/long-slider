@@ -1,0 +1,45 @@
+$bgr: #1d1d1d;
+$aniSpeed: 0.5s;
+$custom-font: 'klavika', "Trebuchet MS",arial,sans-serif;
+
+// fonts
+@font-face {
+  font-family: 'klavika';
+  font-display: auto;
+  src: url('../font/klavika-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'klavika';
+  font-display: auto;
+  src: url('../font/klavika-light-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+// animations
+@keyframes fly-in {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

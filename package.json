@@ -1,0 +1,15 @@
+{
+  "name": "Longslider",
+  "version": "0.0.1",
+  "description": "Long slider test",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-autoprefixer": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "author": "Jorg van Maaren"
+}
