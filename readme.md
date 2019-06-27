@@ -9,8 +9,8 @@ I wrote the "plugin" LongSlider, which does most of the work, for more info chec
 
 It's a very, very opinionated slider ;) not production ready obviously!
 
-Code:
-Demo:
+Code: https://github.com/jorgvm/long-slider/  
+Demo: https://www.coppercup.nl/long-slider/
 
 Jorg
 
